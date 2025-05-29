@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.solo {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  float: left;
+  margin: 20px;
+}
+img {
+  float: right;
+  /* float keeps words  off if still too close add a margin to it  */
+}
+body {
+  border: 2px solid black;
+  display: flow-root;
+  /*  what this does is that it keeps all element in the border without overflowing */
+}
+.double {
+  display: inline-block;
+  /* means in a line next to each other just inline is a much smaller version */
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
